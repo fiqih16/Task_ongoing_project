@@ -1,0 +1,88 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap');
+
+// Variable
+$white: #ffff;
+$secondBlue: #aabde6;
+$blueCustom: #8cb3d9;
+$text: #b3b3b3;
+
+// Styles
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+// Navbar
+header {
+  background-image: url('../img/Hero_BG.png');
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.custom-nav {
+  .container-fluid {
+    .navbar-brand {
+    }
+  }
+
+  #navbarNavDropdown {
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: white;
+          font-weight: 400;
+          margin-left: 2em;
+        }
+        .nav-link:hover {
+          background-color: $blueCustom;
+          border: 10, 20, 20 solid $blueCustom;
+        }
+        .login-button {
+          background-color: white;
+          color: $blueCustom;
+          font-weight: 700;
+          border-radius: 0.4em;
+          border: 0;
+          padding-left: 1em;
+          padding-right: 1em;
+        }
+        .login-button:hover {
+          background-color: $blueCustom;
+          border: 0px solid $blueCustom;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+// Hero
+// .hero-custom {
+//   .container {
+//     .hero-left {
+//       margin-top: 50px;
+//     }
+//     .hero-right {
+//       .hero-img {
+//         .img-hero {
+//           width: auto;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// #hero {
+//   background-image: url('../img/Hero_BG.png');
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   padding-top: 8rem;
+//   padding-bottom: 6rem;
+//   position: fixed;
+// }
